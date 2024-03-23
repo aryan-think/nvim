@@ -85,6 +85,11 @@ _G.packer_plugins = {
     path = "/Users/a.kamboj/.local/share/nvim/site/pack/packer/start/auto-save.nvim",
     url = "https://github.com/Pocco81/auto-save.nvim"
   },
+  ["autoclose.nvim"] = {
+    loaded = true,
+    path = "/Users/a.kamboj/.local/share/nvim/site/pack/packer/start/autoclose.nvim",
+    url = "https://github.com/m4xshen/autoclose.nvim"
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/Users/a.kamboj/.local/share/nvim/site/pack/packer/start/cmp-buffer",
@@ -180,11 +185,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/a.kamboj/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
-  },
-  ["vim-closetag"] = {
-    loaded = true,
-    path = "/Users/a.kamboj/.local/share/nvim/site/pack/packer/start/vim-closetag",
-    url = "https://github.com/alvan/vim-closetag"
   }
 }
 

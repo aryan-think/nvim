@@ -37,6 +37,8 @@ return require('packer').startup(function(use)
 			 {'williamboman/mason-lspconfig.nvim'},
              --auto close tags 
              {"windwp/nvim-ts-autotag"},
+             --auto close brackets
+             {"m4xshen/autoclose.nvim"},
 			-- LSP Support
 			{'neovim/nvim-lspconfig'},
 			-- Autocompletion
