@@ -21,6 +21,7 @@ return require('packer').startup(function(use)
 	use('nvim-treesitter/playground')
 
 	use("ThePrimeagen/harpoon")
+  use "rafamadriz/friendly-snippets"
 	use {
 		'VonHeikemen/lsp-zero.nvim',
 		branch = 'v3.x',
@@ -39,7 +40,14 @@ return require('packer').startup(function(use)
              {"windwp/nvim-ts-autotag"},
              --auto close brackets
              {"m4xshen/autoclose.nvim"},
+             -- commenting
+             {"JoosepAlviste/nvim-ts-context-commentstring"},
+             {"numToStr/Comment.nvim"},
+             -- intentation
+             {"echasnovski/mini.indentscope"},
 			-- LSP Support
+      {"RRethy/vim-illuminate"},
+      {"lewis6991/gitsigns.nvim"},
 			{'neovim/nvim-lspconfig'},
 			-- Autocompletion
 			{'hrsh7th/nvim-cmp'},

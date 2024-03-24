@@ -74,6 +74,11 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["Comment.nvim"] = {
+    loaded = true,
+    path = "/Users/a.kamboj/.local/share/nvim/site/pack/packer/start/Comment.nvim",
+    url = "https://github.com/numToStr/Comment.nvim"
+  },
   LuaSnip = {
     loaded = true,
     path = "/Users/a.kamboj/.local/share/nvim/site/pack/packer/start/LuaSnip",
@@ -120,6 +125,11 @@ _G.packer_plugins = {
     path = "/Users/a.kamboj/.local/share/nvim/site/pack/packer/start/friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
+  ["gitsigns.nvim"] = {
+    loaded = true,
+    path = "/Users/a.kamboj/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
+    url = "https://github.com/lewis6991/gitsigns.nvim"
+  },
   harpoon = {
     loaded = true,
     path = "/Users/a.kamboj/.local/share/nvim/site/pack/packer/start/harpoon",
@@ -140,6 +150,11 @@ _G.packer_plugins = {
     path = "/Users/a.kamboj/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
+  ["mini.indentscope"] = {
+    loaded = true,
+    path = "/Users/a.kamboj/.local/share/nvim/site/pack/packer/start/mini.indentscope",
+    url = "https://github.com/echasnovski/mini.indentscope"
+  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/Users/a.kamboj/.local/share/nvim/site/pack/packer/start/nvim-cmp",
@@ -159,6 +174,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/a.kamboj/.local/share/nvim/site/pack/packer/start/nvim-ts-autotag",
     url = "https://github.com/windwp/nvim-ts-autotag"
+  },
+  ["nvim-ts-context-commentstring"] = {
+    loaded = true,
+    path = "/Users/a.kamboj/.local/share/nvim/site/pack/packer/start/nvim-ts-context-commentstring",
+    url = "https://github.com/JoosepAlviste/nvim-ts-context-commentstring"
   },
   ["packer.nvim"] = {
     loaded = true,
@@ -185,6 +205,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/a.kamboj/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["vim-illuminate"] = {
+    loaded = true,
+    path = "/Users/a.kamboj/.local/share/nvim/site/pack/packer/start/vim-illuminate",
+    url = "https://github.com/RRethy/vim-illuminate"
   }
 }
 
