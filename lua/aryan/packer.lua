@@ -6,6 +6,16 @@ vim.cmd [[packadd packer.nvim]]
 return require('packer').startup(function(use)
 	-- Packer can manage itself
 	use 'wbthomason/packer.nvim'
+  use {'kevinhwang91/nvim-ufo', requires = 'kevinhwang91/promise-async'}
+  use({
+    "kylechui/nvim-surround",
+    tag = "*", -- Use for stability; omit to use `main` branch for the latest features
+    config = function()
+        require("nvim-surround").setup({
+            -- Configuration here, or leave empty to use defaults
+        })
+    end
+  })
 	use {
 		'nvim-telescope/telescope.nvim', tag = '0.1.6',
 		-- or                            , branch = '0.1.x',
@@ -52,6 +62,7 @@ return require('packer').startup(function(use)
 			-- Autocompletion
 			{'hrsh7th/nvim-cmp'},
 			{'hrsh7th/cmp-nvim-lsp'},
+      -- Code folding
 		}
 	}
     use({
@@ -66,7 +77,8 @@ return require('packer').startup(function(use)
     'numToStr/Comment.nvim',
     config = function()
         require('Comment').setup()
-    end
+    end,
+    -- fold unflod
 }
 })
 end)
