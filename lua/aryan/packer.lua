@@ -16,6 +16,7 @@ return require('packer').startup(function(use)
         })
     end
   })
+  use { 'mhartington/formatter.nvim' }
 	use {
 		'nvim-telescope/telescope.nvim', tag = '0.1.6',
 		-- or                            , branch = '0.1.x',
@@ -79,6 +80,9 @@ return require('packer').startup(function(use)
         require('Comment').setup()
     end,
     -- fold unflod
-}
+  },
+  use{
+    "github/copilot.vim",
+  }
 })
 end)
